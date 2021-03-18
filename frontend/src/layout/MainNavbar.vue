@@ -8,7 +8,7 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start" v-if="!showDownload">
-        <a href="#/Home"><h3 class="md-title">HappyPet</h3></a>
+        <a href="#/Home"><h3 class="md-title" style="color:black">Software Engineering 261361</h3></a>
       </div>
       <div class="md-toolbar-section-start" v-if="showDownload">
         <h3 class="md-title">Welcome to HappyPet</h3>

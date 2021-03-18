@@ -92,7 +92,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/nature-2.jpg")
+      default: require("@/assets/img/Artboard_6.png")
     },
     teamImg1: {
       type: String,

@@ -40,16 +40,16 @@ export default new Router({
       props: {
         header: { colorOnScroll: 400 }
       }
+    },
+    {
+      path: "/home",
+      name: "home",
+      components: { default: Home, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
     }
-    // {
-    //   path: "/home",
-    //   name: "home",
-    //   components: { default: Home, header: MainNavbar, footer: MainFooter },
-    //   props: {
-    //     header: { colorOnScroll: 400 },
-    //     footer: { backgroundColor: "black" }
-    //   }
-    // }
   ],
   scrollBehavior: to => {
     if (to.hash) {

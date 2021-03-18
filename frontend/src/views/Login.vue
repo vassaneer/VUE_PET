@@ -5,12 +5,16 @@
         <div class="md-layout-item">
           <div class="image-wrapper">
             <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
+            <div class="brand">
+              <h1 style="color:black">妹を育てる</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </parallax>
     <div class="section section-signup page-header" :style="signupImage">
       <div class="container">
         <div class="md-layout">
-            <div class="brand">
-              <h1>Welcome to HappyPet</h1>
-            </div>
           <div
             class="md-layout-item md-size-33 md-medium-size-40 md-small-size-50 md-xsmall-size-70 mx-auto text-center"
           >
@@ -33,27 +37,24 @@
               </md-field>
               <md-button
                 slot="footer"
-                class="md-simple md-success md-lg "
+                class="md-simple md-success md-lg"
                 v-on:click="checkForm"
               >
-                Get Started
+                <h5 style="color:red">Get Started</h5>
               </md-button>
               <md-button
                 href="#/register"
                 slot="footer"
                 class="md-simple md-success md-lg"
+                
               >
-                Register
+                 <h5 style="color:red">Register</h5>
               </md-button>
             </login-card>
           </div>
         </div>
       </div>
     </div>
-          </div>
-        </div>
-      </div>
-    </parallax>
   </div>
 </template>
 
@@ -79,10 +80,10 @@ export default {
       type: String,
       default: require("@/assets/img/leaf2.png")
     },
-    // signup: {
-    //   type: String,
-    //   default: require("@/assets/img/city.jpg")
-    // }
+   // signup: {
+   //   type: String,
+   //   default: require("@/assets/img/20704182.jpg")
+   // }
   },
   data() {
     return {
