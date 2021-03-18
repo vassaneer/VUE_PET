@@ -5,20 +5,16 @@
         <div class="md-layout-item">
           <div class="image-wrapper">
             <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
-            <div class="brand">
-              <h1>Welcome to HappyPet</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </parallax>
     <div class="section section-signup page-header" :style="signupImage">
       <div class="container">
         <div class="md-layout">
+            <div class="brand">
+              <h1>Welcome to HappyPet</h1>
+            </div>
           <div
             class="md-layout-item md-size-33 md-medium-size-40 md-small-size-50 md-xsmall-size-70 mx-auto text-center"
           >
-            <login-card header-color="green">
+            <login-card header-color="red">
               <h4 slot="title" class="card-title">Login</h4>
               <md-field class="md-form-group" slot="inputs">
                 <md-icon>face</md-icon>
@@ -54,6 +50,10 @@
         </div>
       </div>
     </div>
+          </div>
+        </div>
+      </div>
+    </parallax>
   </div>
 </template>
 
@@ -79,10 +79,10 @@ export default {
       type: String,
       default: require("@/assets/img/leaf2.png")
     },
-    signup: {
-      type: String,
-      default: require("@/assets/img/city.jpg")
-    }
+    // signup: {
+    //   type: String,
+    //   default: require("@/assets/img/city.jpg")
+    // }
   },
   data() {
     return {
