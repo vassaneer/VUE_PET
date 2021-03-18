@@ -73,7 +73,7 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/vue-mk-header.jpg") //background
+      default: require("@/assets/img/Artboard_1.png") //background
     },
     leaf2: {
       type: String,
