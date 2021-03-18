@@ -6,8 +6,8 @@
           <div class="image-wrapper">
             <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
             <div class="brand">
-              <h1>妹を育てる</h1><br>
-              <h1>Imōto o sodateru</h1>
+              <h1>ハッピー妖怪</h1><br>
+              <h1>Happī yōkai</h1>
             </div>
           </div>
         </div>
