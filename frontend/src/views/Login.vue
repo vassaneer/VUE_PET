@@ -6,7 +6,7 @@
           <div class="image-wrapper">
             <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
             <div class="brand">
-              <h1 style="color:black">妹を育てる</h1>
+              <h1>妹を育てる</h1>
             </div>
           </div>
         </div>
@@ -74,16 +74,16 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/Artboard_1.png") //background
+      default: require("@/assets/img/Artboard_7.png") //background
     },
     leaf2: {
       type: String,
       default: require("@/assets/img/leaf2.png")
     },
-   // signup: {
-   //   type: String,
-   //   default: require("@/assets/img/20704182.jpg")
-   // }
+   signup: {
+     type: String,
+     default: require("@/assets/img/Artboard_1.png")
+   }
   },
   data() {
     return {

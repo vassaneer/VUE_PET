@@ -6,7 +6,7 @@
           <div
             class="md-layout-item md-size-33 md-small-size-66 md-xsmall-size-100 md-medium-size-40 mx-auto"
           >
-            <login-card header-color="green">
+            <login-card header-color="red">
               <h4 slot="title" class="card-title">Register</h4>
               <md-field class="md-form-group" slot="inputs">
                 <md-icon>face</md-icon>
@@ -33,7 +33,7 @@
                 class="md-simple md-success md-lg"
                 v-on:click="checkForm"
               >
-                Get Started
+                <h3 style="color:red">Get Started</h3>
               </md-button>
             </login-card>
           </div>
@@ -137,7 +137,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/profile_city.jpg")
+      default: require("@/assets/img/Artboard_8.png")
     }
   },
   computed: {
